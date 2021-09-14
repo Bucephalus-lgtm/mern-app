@@ -18,6 +18,6 @@ RUN cd client/ && npm install --silent
 
 COPY . .
 
-LABEL maintainer="Ryuichi Miyazaki <rmiyazaki11@ucsbalum.com>"
+LABEL maintainer="Bhargab Nath <bhargabnath691@gmail.com>"
 
 CMD ./scripts/start.sh

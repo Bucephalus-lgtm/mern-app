@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
     const [response, setResponse] = useState('Oops, something went wrong...')
@@ -22,20 +20,10 @@ function App() {
     }, [response])
 
   return (
-    <div className="App">
+    <div style={{background: '#0f4b6d', color: '#fff'}}>
       <header className="App-header">
-        <h1>Mern-app</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
+        <h1>Bhargab Nath, Full Stack MERN Developer</h1>
+
         <h1>The API call is...</h1>
           <h2>{response}</h2>
       </header>

@@ -23,3 +23,6 @@ jobs:
           comment: Deploy the master branch
           working-directory: /home/ubuntu/mern-app
           command: /bin/sh ./deploy.sh
+
+      - name: Get the outputs
+        run: echo "The Command id is ${{ steps.ssm.outputs.command-id }}"    

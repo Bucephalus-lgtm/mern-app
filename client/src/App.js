@@ -23,6 +23,7 @@ function App() {
     <div className='container' style={{ background: '#0f4b6d', color: '#fff' }}>
 
       <div className="card text-white bg-dark mb-3" style={{ maxWidth: '18rem' }}>
+        <img className='rounded-circle' src="https://source.unsplash.com/daily" />
         <div className="card-header">Bhargab Nath</div>
         <div className="card-body">
           <h5 className="card-title">Full Stack MERN Developer</h5>
